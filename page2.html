@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Inscription - Touzi Auto</title>
+<link rel="stylesheet" href="projet.css">
+<script src="inscription.js" defer></script>
+</head>
+
+<body>
+
+<header>
+    <h1>Touzi Auto</h1>
+    <nav>
+        <a href="page1.html">Accueil</a>
+        <a href="page2.html">Inscription</a>
+        <a href="page3.html">Produits</a>
+    </nav>
+</header>
+
+<h2>Formulaire d'inscription</h2>
+
+<form id="formInscription">
+
+    <label>Nom *</label>
+    <input type="text" id="nom" required>
+
+    <label>Prénom *</label>
+    <input type="text" id="prenom" required>
+
+    <label>Email *</label>
+    <input type="email" id="email" required>
+
+    <label>Téléphone</label>
+    <input type="tel" id="telephone">
+
+    <label>Date de naissance</label>
+    <input type="date" id="naissance">
+
+    <label>Nom d'utilisateur *</label>
+    <input type="text" id="username" required>
+
+    <label>Mot de passe *</label>
+    <input type="password" id="password" required>
+
+    <label>Confirmer le mot de passe *</label>
+    <input type="password" id="confirmPassword" required>
+
+    <label>Préférences :</label>
+    <input type="checkbox" id="newsletter"> Newsletter
+    <input type="checkbox" id="promo"> Offres promotionnelles
+
+    <label>Genre :</label>
+    <input type="radio" name="genre" value="Homme"> Homme
+    <input type="radio" name="genre" value="Femme"> Femme
+
+    <label>Pays :</label>
+    <select id="pays">
+        <option>Tunisie</option>
+        <option>Algérie</option>
+        <option>Maroc</option>
+    </select>
+
+    <label>
+        <input type="checkbox" id="conditions" required>
+        J'accepte les conditions générales
+    </label>
+
+    <button type="submit">Soumettre</button>
+    <button type="reset">Réinitialiser</button>
+
+</form>
+
+<footer>
+    <div class="footer-content">
+        <img src="touzi.jpg" alt="Footer Image" class="footer-img">
+        <p>Touzi Ibrahim</p>
+    </div>
+    <p>&copy; 2025 Touzi Auto</p>
+</footer>
+
+</body>
+</html>

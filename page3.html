@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Produits - Touzi Auto</title>
+    <link rel="stylesheet" href="projet.css">
+</head>
+<body>
+<header>
+    <h1>Touzi Auto</h1>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="inscription.html">Inscription</a>
+        <a href="produits.html">Produits</a>
+    </nav>
+</header>
+
+<h2>Catalogue des pièces automobiles</h2>
+<div class="catalogue">
+    <div class="produit">
+        <img src="batterie.jpg" alt="Batterie">
+        <h3>Batterie 70Ah</h3>
+        <p>Fiabilité garantie</p>
+        <p>Prix : 250 DT</p>
+        <input type="number" min="1" max="99" value="1" class="qty">
+        <button class="add">Ajouter</button>
+    </div>
+	
+
+    <div class="produit">
+        <img src="bougies.jpg" alt="Bougies">
+        <h3>Bougies d'allumage</h3>
+        <p>Lot de 4</p>
+        <p>Prix : 40 DT</p>
+        <input type="number" min="1" max="99" value="1" class="qty">
+        <button class="add">Ajouter</button>
+    </div>
+	<div class="produit">
+        <img src="fleche.jpg" alt="Bougies">
+        <h3>fleche</h3>
+        <p>Lot de 1</p>
+        <p>Prix : 45DT</p>
+        <input type="number" min="1" max="99" value="1" class="qty">
+        <button class="add">Ajouter</button>
+    </div>
+
+	
+
+    <div class="produit">
+        <img src="frein.jpg" alt="Freins">
+        <h3>Jeu de plaquettes de frein</h3>
+        <p>Haute performance</p>
+        <p>Prix : 80 DT</p>
+        <input type="number" min="1" max="99" value="1" class="qty">
+        <button class="add">Ajouter</button>
+    </div>
+
+    <div class="produit">
+        <img src="filtre.jpg" alt="Filtre à air">
+        <h3>Filtre à air</h3>
+        <p>Pour moteurs essence</p>
+        <p>Prix : 25 DT</p>
+        <input type="number" min="1" max="99" value="1" class="qty">
+        <button class="add">Ajouter</button>
+    </div>
+</div>
+
+<h2>Récapitulatif de commande</h2>
+<div id="recap"></div>
+
+<footer>
+    <p>&copy; 2025 Touzi Auto</p>
+</footer>
+
+
+<script src="produits.js"></script>
+</body>
+</html>
