@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  touzi-auto:
+    build: .
+    container_name: touzi-auto
+    ports:
+      - "8080:80"
+    restart: always
+    
